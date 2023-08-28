@@ -1,0 +1,64 @@
+html,body{
+    margin: auto;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 468px;
+    user-select: none;
+}
+
+body{
+    background-color: #afdde6;
+}
+
+img{
+    width: 500px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;
+    justify-content: center;
+}
+
+ul li{
+    margin-top: 1rem;
+    background: #9e76df;
+    color: #fff;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+}
+
+#buying-items{
+    margin-top: 3rem;
+}
+
+#input-field{
+    font-size: 20px;
+    background: cyan;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+    outline: 2px solid #7a0ce0;
+}
+
+#add-button{
+    margin-top: 1rem;
+    padding: 0.8rem 5.8rem;
+    border: none;
+    background: rgb(34, 233, 34);
+    border: 2px solid #000;;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+#add-button:hover{
+    transform:scale(0.98)
+}
